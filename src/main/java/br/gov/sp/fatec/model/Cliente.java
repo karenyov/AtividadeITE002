@@ -2,6 +2,7 @@ package br.gov.sp.fatec.model;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,21 +10,22 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * @author Karen 7 de mar de 2018
+ * @author Karen 25 de mar de 2018
  */
 @Entity
-@Table(name = "usuario")
-public class Usuario implements Serializable {
+@Table(name = "cliente")
+public class Cliente implements Serializable {
 
-	private static final long serialVersionUID = 4674386970314788343L;
+	private static final long serialVersionUID = -7980302965369279829L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "cliente_id")
 	private Long id;
 
 	private String nome;
 
-	private String email;
+	private String endereco;
 
 	/**
 	 * @return the id
@@ -56,18 +58,35 @@ public class Usuario implements Serializable {
 	}
 
 	/**
-	 * @return the email
+	 * @return the endereco
 	 */
-	public String getEmail() {
-		return email;
+	public String getEndereco() {
+		return endereco;
 	}
 
 	/**
-	 * @param email
-	 *            the email to set
+	 * @param endereco
+	 *            the endereco to set
 	 */
-	public void setEmail(String email) {
-		this.email = email;
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
+
+	/**
+	 * @return the telefone
+	 */
+	public String getTelefone() {
+		return telefone;
+	}
+
+	/**
+	 * @param telefone
+	 *            the telefone to set
+	 */
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+
+	private String telefone;
 
 }
