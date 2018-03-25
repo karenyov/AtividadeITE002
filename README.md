@@ -22,6 +22,11 @@ Realizado
 
 O projeto trata-se de uma pizzaria onde o cliente poderá realizar pedidos.
 
+Considerado o seguinte diagrama de Banco de Dados:
+
+![alt text](diagrama-banco.png)
+
+
 - 1º: Foi realizado relacionamento de Cliente com Pedido(@ManyToOne), ItemPedido com Pedido(@ManyToOne) e ItemPedido com Produto (@ManyToOne).
 - 2º: Utilizado atributo codigo na tabela de Produto como chave única.
 - 3º: 
