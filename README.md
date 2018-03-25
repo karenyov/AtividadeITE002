@@ -12,6 +12,9 @@ git clone https://github.com/karenyov/AtividadeITE002.git
 
 - Fazer o download das dependências (no Eclipse: botão direito no projeto Maven > Update Project...)
 
+## Configurações
+
+- Alterar as configurações do Banco de Bados em applicationContext.xml.
 
 ## Rodando o Projeto
 
