@@ -17,7 +17,7 @@ Um serviço deve receber parâmetros e/ou retornar dados. Um serviço deve conte
 - 5º: Todas as dependências injetadas utilizando Spring; e
 - 6º Um programa principal que realize cadastros e consultas, por meio do(s) serviço(s). O programa principal não deve utilizar repositórios.
 
-Realizado
+Proposta de Projeto :pizza: 
 
 O projeto trata-se de uma pizzaria onde o cliente poderá realizar pedidos.
 
