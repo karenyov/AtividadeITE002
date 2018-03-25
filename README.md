@@ -28,10 +28,10 @@ Considerado o seguinte diagrama de Banco de Dados:
 
 - 1º: Foi realizado relacionamento de Cliente com Pedido(@ManyToOne), ItemPedido com Pedido(@ManyToOne) e ItemPedido com Produto (@ManyToOne).
 - 2º: Utilizado atributo codigo na tabela de Produto como chave única.
-- 3º: consultas nos Repositórios de Produto, Pedido
-- 4º:
-- 5º: 
-- 6º 
+- 3º: Consultas realizadas nos Repositórios de Produto, Pedido
+- 4º: Criado Serviço que cadastra vários produtos
+- 5º: OK
+- 6º: OK
 
 ## Instalação
 
