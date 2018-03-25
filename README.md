@@ -10,8 +10,7 @@ Crie uma aplicação com:
 - 1º: No mínimo, 2 entidades relacionadas (usar um relacionamento @OneToMany),
 mapeadas como tabelas (não utilizar as do exemplo);
 - 2º: Uma das tabelas deve, além da chave primária, possuir uma chave única (uma coluna que não aceita valores iguais para registros diferentes);
-- 3º: Um repositório para cada entidade criada com pelo menos 2 consultas: uma
-com query method e outra com @Query. Ambas as consultas devem envolver
+- 3º: Um repositório para cada entidade criada com pelo menos 2 consultas: uma com query method e outra com @Query. Ambas as consultas devem envolver
 mais de uma classe persistida (tabela);
 - 4º: No mínimo, 1 serviço que utilize as duas entidades e faça uso de transações.
 Um serviço deve receber parâmetros e/ou retornar dados. Um serviço deve conter as regras de negócio da aplicação;
@@ -29,10 +28,10 @@ Considerado o seguinte diagrama de Banco de Dados:
 
 - 1º: Foi realizado relacionamento de Cliente com Pedido(@ManyToOne), ItemPedido com Pedido(@ManyToOne) e ItemPedido com Produto (@ManyToOne).
 - 2º: Utilizado atributo codigo na tabela de Produto como chave única.
-- 3º: 
-- 4º:
-- 5º: 
-- 6º 
+- 3º: Consultas realizadas nos Repositórios de Produto, Pedido
+- 4º: Criado Serviço que cadastra vários produtos
+- 5º: OK
+- 6º: OK
 
 ## Instalação
 
