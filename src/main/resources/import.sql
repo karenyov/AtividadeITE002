@@ -1,4 +1,5 @@
-CREATE database pizzaria;
+CREATE database pizzaria; -- nome opcional
+
 
 CREATE TABLE `pizzaria`.`usuario` (
   `id` BIGINT(20) NOT NULL AUTO_INCREMENT,

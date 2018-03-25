@@ -9,4 +9,5 @@ import br.gov.sp.fatec.model.ItemPedido;
  */
 public interface ItemPedidoRepository extends CrudRepository<ItemPedido, Long> {
 
+	
 }

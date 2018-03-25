@@ -7,5 +7,6 @@ package br.gov.sp.fatec.common;
 public enum Situacao {
 	ABERTO,
 	EM_ANDAMENTO,
-	ENTREGUE
+	ENTREGUE,
+	CANCELADO
 }

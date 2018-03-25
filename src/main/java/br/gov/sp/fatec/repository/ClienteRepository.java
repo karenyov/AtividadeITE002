@@ -8,5 +8,7 @@ import br.gov.sp.fatec.model.Cliente;
  * @author Karen 25 de mar de 2018
  */
 public interface ClienteRepository extends CrudRepository<Cliente, Long> {
+	
+	public Cliente findById(Long id);
 
 }
