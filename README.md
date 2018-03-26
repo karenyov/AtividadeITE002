@@ -1,5 +1,7 @@
 # Atividade ITE002
 
+Exercício realizado na FATEC SJC :school: . 
+
 # Instruções
 
 - Vale 2 pontos na nota do primeiro bimestre; e
