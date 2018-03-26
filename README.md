@@ -26,12 +26,12 @@ Considerado o seguinte diagrama de Banco de Dados:
 ![alt text](diagrama-banco.png)
 
 
-- 1º: Foi realizado relacionamento de Cliente com Pedido(@ManyToOne), ItemPedido com Pedido(@ManyToOne) e ItemPedido com Produto (@ManyToOne).
-- 2º: Utilizado atributo codigo na tabela de Produto como chave única.
-- 3º: Consultas realizadas nos Repositórios de Produto, Pedido
-- 4º: Criado Serviço que cadastra vários produtos
-- 5º: OK
-- 6º: OK
+- 1º: Foi realizado relacionamento de Cliente com Pedido(@ManyToOne), ItemPedido com Pedido(@ManyToOne) e ItemPedido com Produto (@ManyToOne). :heavy_check_mark:
+- 2º: Utilizado atributo codigo na tabela de Produto como chave única. :heavy_check_mark:
+- 3º: Consultas realizadas nos Repositórios de Produto, Pedido :heavy_check_mark:
+- 4º: Criado Serviço que cadastra vários produtos :heavy_check_mark:
+- 5º: OK :heavy_check_mark:
+- 6º: OK :heavy_check_mark:
 
 ## Instalação
 
