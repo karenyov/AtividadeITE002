@@ -1,6 +1,6 @@
 # Atividade ITE002
 
-Exercício realizado na FATEC SJC :school: . 
+Exercício realizado na FATEC SJC :school:  
 
 # Instruções
 
@@ -19,7 +19,7 @@ Um serviço deve receber parâmetros e/ou retornar dados. Um serviço deve conte
 - 5º: Todas as dependências injetadas utilizando Spring; e
 - 6º Um programa principal que realize cadastros e consultas, por meio do(s) serviço(s). O programa principal não deve utilizar repositórios.
 
-## Proposta de Projeto :pizza: 
+## Proposta de Projeto :pizza: :wine_glass: :yum:
 
 O projeto trata-se de uma pizzaria onde o cliente poderá realizar pedidos.
 
